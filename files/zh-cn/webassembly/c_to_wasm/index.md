@@ -66,7 +66,7 @@ emsdk_env.bat
 
 ## 编译样例代码
 
-现在环境配置完毕，让我们看看如何使用它把 C 代码编译到 Emscripten。当使用 Emscripten 来编译的时候有很多种不同的选择，我们介绍其中主要的 2 种：
+现在环境配置完毕，让我们看看如何使用它把 C 代码编译到 wasm。当使用 Emscripten 来编译的时候有很多种不同的选择，我们介绍其中主要的 2 种：
 
 - 编译到 wasm 并且生成一个用来运行我们代码的 HTML，将所有 wasm 在 web 环境下运行所需要的“胶水”JavaScript 代码都添加进去。
 - 编译到 wasm 然后仅仅生成 JavaScript。
